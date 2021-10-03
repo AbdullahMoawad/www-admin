@@ -1,7 +1,3 @@
-NextJS
-Prettier
-Tailwind
-Jest
-Postcss
-Redux
-SSR
+<p align="center">
+     🎉 Baraka ADMIN DASHBOARD PLAYGROUND 🎉
+</p>
