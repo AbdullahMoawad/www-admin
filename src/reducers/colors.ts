@@ -7,6 +7,8 @@ const initialState = [
   'yellow',
   'green',
   'blue',
+  'whiteGreen',
+  'darkGreen',
   'indigo',
   'purple',
   'pink',

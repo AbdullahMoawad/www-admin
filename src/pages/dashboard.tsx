@@ -16,28 +16,28 @@ function Index() {
           <Widget1
             title='Users'
             description={588}
-            right={<FiUsers size={24} className='stroke-current text-gray-500' />}
+            left={<FiUsers size={24} className='stroke-current text-gray-500' />}
           />
         </div>
         <div className='w-full lg:w-1/4'>
           <Widget1
             title='Sessions'
             description={(435)}
-            right={<FiActivity size={24} className='stroke-current text-gray-500' />}
+            left={<FiActivity size={24} className='stroke-current text-gray-500' />}
           />
         </div>
         <div className='w-full lg:w-1/4'>
           <Widget1
             title='Bounce rate'
             description='40.5%'
-            right={<FiExternalLink size={24} className='stroke-current text-gray-500' />}
+            left={<FiExternalLink size={24} className='stroke-current text-gray-500' />}
           />
         </div>
         <div className='w-full lg:w-1/4'>
           <Widget1
             title='Session duration'
             description='1m 24s'
-            right={<FiClock size={24} className='stroke-current text-gray-500' />}
+            left={<FiClock size={24} className='stroke-current text-gray-500' />}
           />
         </div>
       </div>
@@ -56,7 +56,7 @@ function Index() {
           </div>
         </Section>
 
-        <Section title={'sajfdkkashdfldaskjdhlas'} description={undefined} >
+        <Section title={undefined} description={undefined} >
           <div className='w-full mb-4'>
             <VerticalComposedChart />
           </div>

@@ -4,7 +4,6 @@ import {
   AreaChart,
   Area,
   XAxis,
-  YAxis,
   Tooltip,
   Legend
 } from 'recharts'

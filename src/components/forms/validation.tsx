@@ -156,7 +156,7 @@ const FormValidation = ({ items, onSubmit, alerts }) => {
         </div>
         <input
           type='submit'
-          className='btn btn-default bg-blue-500 hover:bg-blue-600 text-white btn-rounded'
+          className='btn btn-default bg-green-400 hover:bg-green-600 text-white btn-rounded'
         />
       </form>
     </div>

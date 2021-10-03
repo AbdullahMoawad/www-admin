@@ -1,7 +1,8 @@
-import {useSelector, shallowEqual} from 'react-redux'
-import {Bar} from 'react-chartjs-2'
+import { useSelector, shallowEqual } from 'react-redux'
+import { Bar } from 'react-chartjs-2'
 import { getColor, isDarkPalette, toRGB } from '../../util/colors';
 import { random } from '../../util/numbers';
+import { any } from 'prop-types';
 
 const Chart = ({
   height = 200,
@@ -9,7 +10,7 @@ const Chart = ({
   color2 = 'bg-blue-500',
   color3 = 'bg-teal-500'
 }) => {
-  const {palettes, collapsed, layout} = useSelector(
+  const { palettes, collapsed, layout } = useSelector(
     state => ({
       palettes: state.palettes,
       collapsed: state.collapsed,
@@ -17,7 +18,7 @@ const Chart = ({
     }),
     shallowEqual
   )
-  const {background} = {...palettes}
+  const { background }: any = { ...palettes }
   const isDark = isDarkPalette(background)
   const key = `${layout}-${collapsed}-${background}`
 
@@ -148,7 +149,7 @@ const Chart = ({
   }
 
   return (
-    <div style={{height: height}}>
+    <div style={{ height: height }}>
       <Bar
         key={key}
         data={data}
